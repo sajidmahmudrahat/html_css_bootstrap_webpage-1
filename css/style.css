@@ -1,0 +1,323 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+   /*  */
+}
+/* nav-bar style start from here */
+#nav-bar{
+position:sticky;
+top:0;
+z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#973960,#325a16);
+    padding: 0,  !important;
+}
+.nav-menu ul li{
+    transition:1s;
+    font-family: 'Signika Negative', sans-serif;
+}
+.nav-menu ul li a{
+    
+    padding-left:40px;  
+    
+}
+.nav-menu ul li:hover{
+    cursor:pointer;
+    text-decoration:underline;
+    transform: scale(1.1);  
+}
+.ul-style{
+margin-left:auto;
+
+}
+.navbar-brand img{
+    height:30px;
+    padding-left:20px;
+
+}
+.navbar ul li a{
+    color:#fff !important;
+    font-weight:500;
+    margin-left:20px;
+}
+.navbar-collapse{
+    color:#fff;
+}
+.navbar-toggler{
+    outline: none!important;
+}
+.fa-bars{
+    color:#fff;
+    font-size:40px;
+}
+/* Nav bar style ends here */
+
+
+/* banner-section start from here */
+#banner{
+    background-image: linear-gradient(to right,#16255a,#4f3915,#2f4b1a);
+    color:#fff;
+}
+.promo-title{
+    font-size:35px;
+    font-weight:600;
+    margin-top:100px;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+#banner .description{
+    line-height: auto;
+    font-size:17px;
+}
+
+.play-btn{
+width:45px;
+margin:20px;
+}
+#banner a{
+    color:#ffff;
+    text-decoration:none;
+    font-weight:bolder;
+    font-size:19px;
+}
+.bottom-img{
+    width:100%;
+}
+/* Banner-section End Here */
+
+/* Services section start from here */
+#services{
+    padding:60px 0;
+}
+.services-heading{
+    font-size:45px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-bottom:20px;  
+}
+.title::before{
+    content: '';
+    background-color:#4f3915;
+    height:5px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transform: translateY(63px);   
+}
+
+.service-img{
+width:100px;
+margin-top:20px;
+}
+#services h4{
+    padding:5px;
+    margin-top:25px;
+    text-transform:uppercase;
+    font-family: 'Signika Negative', sans-serif;
+}
+#services p{
+    font-size:17px;
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding:8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #3f3f3d, rgba(6, 6, 6, 0.733),rgb(21, 21, 22));
+    
+}
+#services .service-btn{
+    font-family: 'Signika Negative', sans-serif;
+    transition:1.1s;
+    font-size:19px;
+    margin-top:20px;
+}
+#services .service-btn:hover{
+    transform:scale(1.3);
+}
+/* Services  section end here */
+
+
+/* About section start From here */
+#about-us{
+    background:#ccdbe9;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+#about-us .about-title{
+font-size:45px;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:8%;
+}
+#about-us ul li{
+    margin:10px 0px;
+}
+#about-us ul{
+    margin-left:-12px;
+}
+/* About section Ends Here */
+
+/* testimonial section start from here */
+#testimonial{
+    background-image:linear-gradient(to right, rgb(117, 200, 234),rgba(33, 44, 57, 0.333));
+    padding:50px 0px;
+}
+.testimonial{
+    border-left:4px solid #162351;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:0px 20px;
+   
+}
+
+.testimonial-para{
+    text-align: justify;
+    font-weight:540;
+    /* padding:0 20px; */
+
+}
+.testimonial img{
+    height:120px;
+    width:120px;
+    border-radius:50%;
+    margin:10px 0px;   
+}
+#testimonial p{
+font-size:17px;
+}
+.user-details{
+    display:inline-block;
+    font-size:18px; 
+}
+
+/* Testimonial section End Here */
+
+/* Social Media Section start From here */
+#social-media{
+    background-color:#f8f9fa;
+    padding:50px 0;
+}
+#social-media p{
+    font-size:45px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.social-icons img{
+padding-top:0px;
+width:60px;
+transition:0.5s;
+}
+.social-icons a:hover img{
+   transform:rotate(360deg);
+}
+.social-title{
+    padding-bottom:10px;
+}
+.social-title::before{    
+content: '';
+background-color:#4f3915;
+height:5px;
+width:400px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+transform: translateY(68px);   
+}
+/* Social media Section Ends here */
+
+/* Footer Section start from Here */
+#footer{
+    background-image: linear-gradient(to right, #16255a,#4f3915,#2f4b1a);
+    color:#ffff; 
+}
+.footer-img{
+    width:100%;
+}
+.footer-box{
+    padding:20px;
+}
+.footer-box img{
+    width:150px;
+    margin-bottom:20px;
+}
+.contact-title{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-box .fa{
+margin-right:8px;
+font-size:20px;
+height:40px;
+width:40px;
+background-image:linear-gradient(to right, #28335a,#524125,#3a4135);
+text-align: center;
+padding-top:10px;
+border-radius:2px;
+}
+.footer-box .fa:hover{
+    cursor:pointer;
+}
+
+.footer-box a{
+    text-decoration:none;
+    color:White;
+}
+
+.btn{
+    padding:5px 30px;  
+}
+.footer-box .form-control{
+box-shadow:none;
+border: none;
+border-radius:0 ;
+margin-top:5px;
+max-width:250px;
+}
+.submit-btn{
+font-size:20px;
+background-image: linear-gradient(to right, #3f3f3d, rgba(6, 6, 6, 0.733),rgb(21, 21, 22));
+text-align:center;
+margin-top:10px;
+transition:0.8s;
+}
+.submit-btn:hover{
+    background-color: #4f0508;
+    transform: scale(0.9);
+}
+.subscribe-part p{
+font-size:30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.subscribe-part span{
+ font-size:20px;
+}
+.develop{
+    justify-content: center;
+    display:flex;
+    margin-top:30px;
+    background-image:linear-gradient(to left,#252a3c,rgb(41, 52, 41) , rgb(85, 35, 35), rgb(56, 56, 33));
+    padding:20px;
+}
+.container .arrow{
+    color:white;
+}
+.container .gotop{
+      position:fixed;
+      width:50px;
+      height: 50px;
+      bottom:100px;
+      right:20px;
+      background-color:rgb(106, 23, 221);
+      text-decoration: none;
+      text-align: center;
+      line-height:60px;
+      transition:1s;
+      border:4px solid rgba(224, 85, 15, 0.897);
+      border-radius:50%;
+      
+}
+
+
+/* Footer Section End Here */
